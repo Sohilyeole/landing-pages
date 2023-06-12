@@ -1,0 +1,138 @@
+/*START OF ALL CSS OF PROJECT*/
+/* Font Family Popins By Google Fonts*/
+
+*{font-family: 'Poppins', sans-serif;}
+/* Defining Background Color*/
+body{
+    margin: 0px;
+    background-color: #edf1fd;
+    
+    
+}
+/* For Styling All Button In Project*/
+button{
+    background-color: rgb(18, 155, 155);
+    border-radius: 3px;
+    height: 30px;
+    color: #edf1fd;
+    border: none;
+}
+/* For Styling Header Including LOGO  Links Search box*/
+.header{
+    
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+/* For Styling Main Logo*/
+.logo{
+    font-weight: 800;
+    font-size: 40px;
+}
+/* For Styling links*/
+.links{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+   
+}
+/* For Styling Atribute Tags*/
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+/* For Styling Input Search  */
+input{
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+}
+/* For Styling  SearchButton And Input*/
+.search{ display: flex;
+    gap: 20px;
+}
+/* For Styling  Main Content Div*/
+.main{
+    
+    height: 430px;
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+/* For specify Left Div in Main Content*/
+.left{
+    margin-left: 100px;
+    width: 60%
+}
+/* For Styling  And Highliting Some OF Words In Left Contain*/
+span{
+    color: rgb(18, 155, 155);
+    font-weight: 700;
+    font-size: 20px;
+}
+/* For Styling  And Highliting Some OF Words In Left Contain*/
+.highlight{
+    font-size: 50px;
+}
+/* For Giving Font Size To Text*/
+p{
+    font-size: x-large;
+}
+/* For Styling  And Managing Right Side Of Main Div*/
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+}
+/* Style Apply On Click Me Button In Right Side Div In Main Container*/
+.button{
+    margin-top: 10px;
+    
+}
+/* For Styling  Footer */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+}
+/* For Styling Symbols Of Some Sites*/
+.symbol{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    justify-self: flex-end;
+    width: 150px;
+    position: relative;
+    left: 230px;
+    top: 10px;  
+}
+/* For Giving Size For Symbol In Footer*/
+i{
+    font-size: 20px; 
+}
+/* For Managing Copyright Text In Footer*/
+.copyright{
+    position: relative;
+    top: 10px;
+    right: 150px;
+}
+/*END OF ALL CSS OF PROJECT*/
+
+
+
+
+
+
+
+
+   
+   
+    
+
+
+
