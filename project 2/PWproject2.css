@@ -1,0 +1,107 @@
+/* STYLING BODY BACKGROUNG INCLUDING COLOR*/
+body {
+    margin: 0px;
+    background-color: #f9f5ed;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* STYLING HEADER AND CONSTRUCT*/
+.header {
+    height: 50px;
+    display: flex;
+    gap: 100px;
+    align-items:center;
+
+}
+
+/* STYLING LOGO*/
+.logo {
+    margin-left: 100px;
+   
+}
+
+/* STYLING LINKS*/
+.links {
+    display: flex;
+    justify-content: space-around;
+    gap: 80px;
+}
+
+/* WORKING WITH HEADER*/
+header a {
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+}
+
+/* STYLING LEFT SIDE OF MAIN SECTION*/
+main .left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    height: 510px;
+
+    gap: 10px;
+
+}
+
+.left h1 {
+    position: static;
+    margin-left: 100px;
+    font-size: 60px;
+    padding: 0%;
+    margin-bottom: 0%;
+
+}
+
+.left p {
+    position: relative;
+    margin-left: 100px;
+    margin-bottom: 00px;
+    font-size: small;
+}
+
+
+.left button {
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(5, 67, 5);
+    width: 100px;
+    margin-left: 100px;
+
+
+}
+
+.right {
+    width: 50%;
+    padding-left: 100px;
+
+}
+
+/* STYLING RIGHT SECTION OF MAIN*/
+.right .top {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 100px;
+    column-gap: 10px;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.right .bottom {
+    position: relative;
+    margin-left: 100px;
+
+}
+
+.right .top .img1 {
+    position: relative;
+    top: 50px;
+}
