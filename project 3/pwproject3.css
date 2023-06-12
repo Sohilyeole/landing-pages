@@ -1,0 +1,71 @@
+
+*{
+    font-family: "Red Rose", cursive;
+}
+
+.main{
+    width: 930px;
+    height: 540px;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(assest/pexels-maxyne-barcel-10402282\ 1.png) ;
+    background-size: cover;
+    margin: auto;
+    border-radius: 20px;
+   
+}
+header{
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.center{
+    height: 380px;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    flex-direction: column;
+    font-weight: 900;
+    color: rgb(255,194,51);
+    font-family: 'Poppins', sans-serif;
+   
+}
+h1{
+    font-size: 60px;
+    font-weight: 900;
+
+ }
+footer{
+    display: flex;
+    justify-content: end;
+    margin-right: 15px;    
+}
+button{
+    background-color: rgb(255,81,95);
+    color: white;
+    box-shadow: none;
+    border-color: rgb(255,81,95);
+}
+.button{
+    position: relative;
+    margin-bottom: 100px;
+}
+.contain{
+    height: 270px; 
+}
+.logo{ 
+    position: relative;
+    right: 240px;   
+}
+.middle{
+    display: flex;
+    gap: 30px;  
+}
+.order{
+    position: relative;
+    left: 200px;
+}
+a{
+text-decoration: none;
+color:rgb(255,194,51);
+}
